@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://jetstream.security/trust-center/
+url: https://jetstream.security/trust-center/
+status: in-progress
+status_note: 'As of the trust-center page, all named frameworks are being actively
+  pursued / in progress rather than achieved: SOC 2 Type I and Type II (with Coalfire
+  and A-LIGN), FedRAMP High, and DoD Impact Level 5 (IL5).'
+certifications:
+- SOC 2
+- FedRAMP High
+- DoD IL5
+evidence:
+- source: https://jetstream.security/trust-center/
+  keywords:
+  - soc 2
+  - fedramp
+  - trust center

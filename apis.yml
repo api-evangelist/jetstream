@@ -1,8 +1,27 @@
 aid: jetstream
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jetstream.png
 name: Jetstream
-description: 'Jetstream is a company surfaced as a portfolio company of redpoint-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Jetstream (jetstream.security) is a security-first AI governance platform for enterprises,
+  backed by Redpoint Ventures. It helps organizations discover, control, and monitor AI systems at scale
+  across five capabilities: AI Visibility (discovering and inventorying AI agents, models, tools, and
+  workflows across environments), AI Design Control (documenting how agentic systems are assembled),
+  Agentic Identity (binding human and AI identities to responsible owners), Runtime Governance (enforcing
+  real-time behavioral compliance against approved designs), and AI FinOps Accountability (tracking usage
+  and spend by model, agent, and workflow). The company positions governance as an accelerator for AI
+  adoption, addressing shadow AI, cost control, accountability, and compliance. No public API, SDK, CLI,
+  or developer portal is published as of this profile; the company pursues SOC 2, FedRAMP High, and DoD
+  IL5 compliance.'
 url: https://raw.githubusercontent.com/api-evangelist/jetstream/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Cybersecurity
+- AI Governance
+- AI Security
+- Agentic AI
+- Runtime Governance
+- Compliance
+- FinOps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/jetstream-trust-center.yml
+- type: DomainSecurity
+  url: security/jetstream-domain-security.yml
 - type: Website
   url: https://jetstream.security/
+- type: Blog
+  url: https://jetstream.security/insights/
+- type: Support
+  url: https://jetstream.security/support/
+- type: PrivacyPolicy
+  url: https://jetstream.security/privacy-policy/
+- type: TermsOfService
+  url: https://jetstream.security/website-terms-of-use/
+- type: SignUp
+  url: https://jetstream.security/contact-us/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
