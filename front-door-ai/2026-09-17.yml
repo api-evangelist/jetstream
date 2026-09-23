@@ -1,0 +1,30 @@
+# Front Door AI Index — jetstream — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: jetstream
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: jetstream.security
+  final_host: jetstream.security
+  ownership: own
+  owner: jetstream
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 61
+  host_score: 61
+  density: 55.81
+  words: 1093
+  tiers:
+    agentic: 13
+    core: 48
+    model: 0
+  ambiguous: 5
+  top_terms:
+    AI: 48
+    agentic: 8
+    agent: 5
+    MCP: 2
+    prompts: 2
+    AI agent: 1
